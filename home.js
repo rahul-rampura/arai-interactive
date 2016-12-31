@@ -21,6 +21,5 @@
 
     //Handle exit
     exit_btn.addEventListener('click', function(){
-        window.opener = null;
-        return false;
+        window.top.close();
     });

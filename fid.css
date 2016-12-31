@@ -10,3 +10,90 @@
   height:100%;
   width:100%;
 }
+
+#video_container {
+  position: absolute;
+  height: 50%;
+  width: 33%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border: transparent;
+  background: transparent; 
+  z-index: 1000;
+}
+
+#ftl_btn {
+  position: absolute;
+  height: 13%;
+  width: 15%;
+  left: 11%;
+  top: 42%;
+  border:transparent;
+  background: transparent;
+}
+
+#aml_btn {
+  position: absolute;
+  height: 13%;
+  width: 15%;
+  left: 28%;
+  top: 41%;
+  border:transparent;
+  background: transparent;
+}
+
+#training_btn {
+  position: absolute;
+  height: 12%;
+  width: 14%;
+  right: 34%;
+  top: 40%;
+  border:transparent;
+  background: transparent;
+}
+
+#cae_btn {
+  position: absolute;
+  height: 10%;
+  width: 11%;
+  right: 20%;
+  top: 40%;
+  border:transparent;
+  background: transparent;
+}
+
+#home_btn {
+  position: absolute;
+  height: 10%;
+  width: 8%;
+  right: 0%;
+  top: 2%;
+  border:transparent;
+  background: transparent;
+}
+
+#quit_div {
+  position: absolute;
+  height: 15%;
+  width: 6%;
+  top: 0%;
+  right: 0%;
+  display: none;
+  border: transparent;
+  background: transparent;
+}
+
+#quit_img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+#quit_btn {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border: transparent;
+  background:transparent;
+}
