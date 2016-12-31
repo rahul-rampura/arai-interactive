@@ -15,17 +15,13 @@
 
         //Apply Fullscreen
         if (lvid.requestFullscreen) {
-          console.log('Fullscreen1');
           lvid.requestFullscreen();
         } else if (lvid.msRequestFullscreen) {
-          console.log('Fullscreen2');
-          lvid.msRequestFullscreen();
+          lvid.msRequestFullscreen();                //Fullscreen handling for edge
         } else if (lvid.mozRequestFullScreen) {
-          console.log('Fullscreen3');
-          lvid.mozRequestFullScreen();
+          lvid.mozRequestFullScreen();               //Fullscreen handling for firefox
         } else if (lvid.webkitRequestFullscreen) {
-          console.log('Fullscreen4');
-          lvid.webkitRequestFullscreen();
+          lvid.webkitRequestFullscreen();            //Fullscreen andling for chrome
         }
         
         //Redirect to home page after video ends
