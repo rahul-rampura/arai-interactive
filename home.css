@@ -1,0 +1,55 @@
+#container {
+  position: relative;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+
+#home_img {
+  position: absolute;
+  height:100%;
+  width:100%;
+}
+
+
+#kothrud_btn {
+  position: absolute;
+  height: 50%;
+  width: 30%;
+  bottom: 7%;
+  left: 2%;
+  border:transparent;
+  background: transparent;
+}
+
+#htc_btn {
+  position: absolute;
+  height: 50%;
+  width: 30%;
+  top: 42%;
+  left: 35%;
+  bottom: 7%;
+  border:transparent;
+  background: transparent;
+}
+
+#fid_btn {
+  position: absolute;
+  height: 50%;
+  width: 30%;
+  bottom: 7%;
+  right: 2%;
+  border:transparent;
+  background: transparent;
+}
+
+#exit_btn {
+  position: absolute;
+  height: 6%;
+  width: 11%;
+  right: 2%;
+  top: 4%;
+  border:transparent;
+  background: transparent;
+}
+

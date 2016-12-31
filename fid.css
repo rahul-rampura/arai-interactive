@@ -1,0 +1,12 @@
+#container {
+  position: relative;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+
+#fid_img {
+  position: absolute;
+  height:100%;
+  width:100%;
+}
