@@ -15,15 +15,16 @@
     
     //Handling buttons 
     ftl_btn.addEventListener('click', function() {
-        document.getElementById('video_container').style.display = 'block';
         console.log('Play ftl video');
+        var vc = document.getElementById('video_container');
+        vc.style.display = 'block';
         vid.src = "arai_logo.mp4";
-        document.getElementById('video_container').appendChild(vid);
+        vc.appendChild(vid);
         document.getElementById('quit_div').style.display = "block";
         vid.play();
         quit_btn.addEventListener('click', function() {
             console.log('Quit clicked');
-            document.getElementById('video_container').style.display = 'none';
+            vc.style.display = 'none';
         });
         vid.addEventListener('ended', function() {
             location.href = "fid.html";
@@ -32,14 +33,53 @@
 
     aml_btn.addEventListener('click', function() {
         console.log('Play aml video');
+        var vc = document.getElementById('video_container');
+        vc.style.display = 'block';
+        vid.src = "arai_logo.mp4";
+        vc.appendChild(vid);
+        document.getElementById('quit_div').style.display = "block";
+        vid.play();
+        quit_btn.addEventListener('click', function() {
+            console.log('Quit clicked');
+            vc.style.display = 'none';
+        });
+        vid.addEventListener('ended', function() {
+            location.href = "fid.html";
+        });     
     });
 
     training_btn.addEventListener('click', function() {
         console.log('Play training video');
+        var vc = document.getElementById('video_container');
+        vc.style.display = 'block';
+        vid.src = "arai_logo.mp4";
+        vc.appendChild(vid);
+        document.getElementById('quit_div').style.display = "block";
+        vid.play();
+        quit_btn.addEventListener('click', function() {
+            console.log('Quit clicked');
+            vc.style.display = 'none';
+        });
+        vid.addEventListener('ended', function() {
+            location.href = "fid.html";
+        });     
     });
     
     cae_btn.addEventListener('click', function() {
         console.log('Play cae video');
+        var vc = document.getElementById('video_container');
+        vc.style.display = 'block';
+        vid.src = "arai_logo.mp4";
+        vc.appendChild(vid);
+        document.getElementById('quit_div').style.display = "block";
+        vid.play();
+        quit_btn.addEventListener('click', function() {
+            console.log('Quit clicked');
+            vc.style.display = 'none';
+        });
+        vid.addEventListener('ended', function() {
+            location.href = "fid.html";
+        });     
     });
     
     home_btn.addEventListener('click', function() {
