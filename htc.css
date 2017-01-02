@@ -1,0 +1,99 @@
+#htc_container {
+  position: relative;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+
+#htc_img {
+  position: absolute;
+  height:100%;
+  width:100%;
+}
+
+#htc_video_container {
+  position: absolute;
+  height: 50%;
+  width: 33%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border: transparent;
+  background: transparent; 
+  z-index: 1000;
+}
+
+#htc_fmc_btn {
+  position: absolute;
+  height: 15%;
+  width: 16%;
+  left: 12%;
+  top: 38%;
+  border:transparent;
+  background: transparent;
+}
+
+#htc_ptl_btn {
+  position: absolute;
+  height: 10%;
+  width: 11%;
+  left: 23%;
+  top: 24%;
+  border:transparent;
+  background: transparent;
+}
+
+#htc_training_btn {
+  position: absolute;
+  height: 10%;
+  width: 10%;
+  left: 32%;
+  top: 12%;
+  border:transparent;
+  background: transparent;
+}
+
+#htc_psl_btn {
+  position: absolute;
+  height: 12%;
+  width: 13%;
+  right: 39%;
+  top: 5%;
+  border:transparent;
+  background: transparent;
+}
+
+#htc_home_btn {
+  position: absolute;
+  height: 10%;
+  width: 7%;
+  right: 1%;
+  top: 2%;
+  border:transparent;
+  background: transparent;
+}
+
+#htc_quit_div {
+  position: absolute;
+  height: 15%;
+  width: 6%;
+  top: 0%;
+  right: 0%;
+  display: none;
+  border: transparent;
+  background: transparent;
+}
+
+#htc_quit_img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+#htc_quit_btn {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border: transparent;
+  background:transparent;
+}
