@@ -16,6 +16,7 @@
     //Handling buttons 
     ftl_btn.addEventListener('click', function() {
         console.log('Play ftl video');
+        ftl_btn.style.zIndex = "100";
         var vc = document.getElementById('video_container');
         vc.style.display = 'block';
         vid.src = "arai_logo.mp4";
@@ -33,6 +34,7 @@
 
     aml_btn.addEventListener('click', function() {
         console.log('Play aml video');
+        aml_btn.style.zIndex = "100";
         var vc = document.getElementById('video_container');
         vc.style.display = 'block';
         vid.src = "arai_logo.mp4";
@@ -50,6 +52,7 @@
 
     training_btn.addEventListener('click', function() {
         console.log('Play training video');
+        training_btn.style.zIndex = "100";
         var vc = document.getElementById('video_container');
         vc.style.display = 'block';
         vid.src = "arai_logo.mp4";
@@ -67,6 +70,7 @@
     
     cae_btn.addEventListener('click', function() {
         console.log('Play cae video');
+        cae_btn.style.zIndex = "100";
         var vc = document.getElementById('video_container');
         vc.style.display = 'block';
         vid.src = "arai_logo.mp4";
