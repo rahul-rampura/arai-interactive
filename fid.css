@@ -31,6 +31,7 @@
   top: 42%;
   border:transparent;
   background: transparent;
+  z-index: 10000;
 }
 
 #aml_btn {
@@ -41,6 +42,7 @@
   top: 41%;
   border:transparent;
   background: transparent;
+  z-index: 10000;
 }
 
 #training_btn {
@@ -51,6 +53,7 @@
   top: 40%;
   border:transparent;
   background: transparent;
+  z-index: 10000;
 }
 
 #cae_btn {
@@ -61,6 +64,7 @@
   top: 40%;
   border:transparent;
   background: transparent;
+  z-index: 10000;
 }
 
 #home_btn {
@@ -71,6 +75,7 @@
   top: 2%;
   border:transparent;
   background: transparent;
+  z-index: 10000;
 }
 
 #quit_div {
