@@ -1,0 +1,736 @@
+#kothrud_container {
+  position: relative;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+
+#kothrud_img {
+  position: absolute;
+  height:100%;
+  width:100%;
+}
+
+#home_btn {
+  position: absolute;
+  height: 10%;
+  width: 5%;
+  right: 2%;
+  top: 2%;
+  border:transparent;
+  background: transparent;
+}
+
+#coming_soon {
+  position: absolute;
+  display:none;
+}
+
+#video_container {
+  position: absolute;
+  height: 50%;
+  width: 33%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border: transparent;
+  background: transparent;
+}
+
+.pdf_container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  display: none;
+}
+
+.quit_div {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  height: 5%;
+  width: 3%;
+  background: transparent;
+  border: transparent;
+  display: none;
+}
+
+.quit_img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: transparent;
+}
+
+.sendmail_div {
+  position: absolute;
+  top: 4%;
+  right: 0%;
+  height: 10%;
+  width: 8%;
+  background: transparent;
+  border: transparent;
+  display: none;
+}
+
+.sendmail_img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: transparent;
+}
+
+#ecl_btn {
+  position: absolute;
+  height: 12%;
+  width: 8%;
+  right: 19%;
+  top: 15%;
+  border:transparent;
+  background: transparent;
+  z-index: 100;
+}
+
+#ecl_btn_ops {
+  position: absolute;
+  right: 19%;
+  top: 13%;
+  height: 7%;
+  width: 9%;
+  background: transparent;
+  border: transparent;
+  display: none;
+  z-index: 102;
+}
+
+
+#pte_btn {
+  position: absolute;
+  height: 10%;
+  width: 8%;
+  left: 36%;
+  top: 25%;
+  border:transparent;
+  background: transparent;
+  z-index: 100;
+}
+
+#pte_btn_ops {
+  position: absolute;
+  left: 36%;
+  top: 23%;
+  height: 7%;
+  width: 9%;
+  background: transparent;
+  border: transparent;
+  display: none;
+  z-index: 102;
+}
+
+#pte_btn_ops2 {
+  position: absolute;
+  left: 36%;
+  top: 32%;
+  height: 7%;
+  width: 9%;
+  background: transparent;
+  border: transparent;
+  display: none;
+  z-index: 102;
+}
+
+
+#shl_btn {
+  position: absolute;
+  height: 11%;
+  width: 8%;
+  left: 15%;
+  top: 22%;
+  border:transparent;
+  background: transparent;
+  z-index: 100;
+}
+
+#shl_btn_ops {
+  position: absolute;
+  left: 16%;
+  top: 20%;
+  height: 7%;
+  width: 9%;
+  background: transparent;
+  border: transparent;
+  display: none;
+  z-index: 102;
+}
+
+
+#psl_btn {
+  position: absolute;
+  height: 11%;
+  width: 7%;
+  left: 21%;
+  top: 20%;
+  border:transparent;
+  background: transparent;
+  z-index: 100;
+}
+
+#psl_btn_ops {
+  position: absolute;
+  left:22%;
+  top: 18%;
+  height: 7%;
+  width: 9%;
+  background: transparent;
+  border: transparent;
+  display: none;
+  z-index: 102;
+}
+
+
+#cae_btn {
+  position: absolute;
+  height: 10%;
+  width: 8%;
+  left: 25%;
+  top: 37%;
+  border:transparent;
+  background: transparent;
+  z-index: 100;
+}
+
+#cae_btn_ops {
+  position: absolute;
+  left: 25%;
+  top: 35%;
+  height: 7%;
+  width: 9%;
+  background: transparent;
+  border: transparent;
+  display: none;
+  z-index: 102;
+}
+
+
+#nvh_btn {
+  position: absolute;
+  height: 10%;
+  width: 7%;
+  left: 30%;
+  top: 40%;
+  border:transparent;
+  background: transparent;
+  z-index: 100;
+}
+
+#nvh_btn_ops {
+  position: absolute;
+  left: 31%;
+  top: 38%;
+  height: 7%;
+  width: 9%;
+  background: transparent;
+  border: transparent;
+  display: none;
+  z-index: 102;
+}
+
+#vel_btn {
+  position: absolute;
+  height: 10%;
+  width: 8%;
+  left: 10%;
+  top: 16%;
+  border:transparent;
+  background: transparent;
+  z-index: 100;
+}
+
+#vel_btn_ops {
+  position: absolute;
+  left: 10%;
+  top: 14%;
+  height: 7%;
+  width: 9%;
+  background: transparent;
+  border: transparent;
+  display: none;
+  z-index: 102;
+}
+
+#sdl_btn {
+  position: absolute;
+  height: 10%;
+  width: 8%;
+  left: 16%;
+  top: 14%;
+  border:transparent;
+  background: transparent;
+  z-index: 100;
+}
+
+#sdl_btn_ops {
+  position: absolute;
+  left: 16%;
+  top: 12%;
+  height: 7%;
+  width: 9%;
+  background: transparent;
+  border: transparent;
+  display: none;
+  z-index: 102;
+}
+
+#cal_btn {
+  position: absolute;
+  height: 11%;
+  width: 9%;
+  left: 41%;
+  top: 44%;
+  border:transparent;
+  background: transparent;
+  z-index: 100;
+}
+
+#cal_btn_ops {
+  position: absolute;
+  left: 41%;
+  top: 42%;
+  height: 7%;
+  width: 9%;
+  background: transparent;
+  border: transparent;
+  display: none;
+  z-index: 102;
+}
+
+#aed_btn {
+  position: absolute;
+  height: 12%;
+  width: 8%;
+  left: 77%;
+  top: 41%;
+  border:transparent;
+  background: transparent;
+  z-index: 100;
+}
+
+#aed_btn_ops {
+  position: absolute;
+  left: 78%;
+  top: 39%;
+  height: 7%;
+  width: 9%;
+  background: transparent;
+  border: transparent;
+  display: none;
+  z-index: 102;
+}
+
+#aml_btn {
+  position: absolute;
+  height: 12%;
+  width: 9%;
+  left: 61%;
+  top: 53%;
+  border:transparent;
+  background: transparent;
+  z-index: 100;
+}
+
+#aml_btn_ops {
+  position: absolute;
+  left: 61%;
+  top: 51%;
+  height: 7%;
+  width: 9%;
+  background: transparent;
+  border: transparent;
+  display: none;
+  z-index: 102;
+}
+
+#impc_btn {
+  position: absolute;
+  height: 12%;
+  width: 8%;
+  left: 72%;
+  top: 38%;
+  border:transparent;
+  background: transparent;
+  z-index: 100;
+}
+
+#impc_btn_ops {
+  position: absolute;
+  left: 74%;
+  top: 36%;
+  height: 7%;
+  width: 9%;
+  background: transparent;
+  border: transparent;
+  display: none;
+  z-index: 102;
+}
+
+#bdcp_btn {
+  position: absolute;
+  height: 4%;
+  width: 4%;
+  left: 53%;
+  top: 40%;
+  border:transparent;
+  background: transparent;
+  z-index: 100;
+}
+
+#bdcp_btn_ops {
+  position: absolute;
+  left: 53%;
+  top: 39%;
+  height: 7%;
+  width: 9%;
+  background: transparent;
+  border: transparent;
+  display: none;
+  z-index: 102;
+}
+
+/* Removed academy button in June 2018 */
+/*
+#aca_btn {
+  position: absolute;
+  height: 12%;
+  width: 9%;
+  left: 61%;
+  top: 33%;
+  border:transparent;
+  background: transparent;
+  z-index: 100;
+}
+
+#aca_btn_ops {
+  position: absolute;
+  left: 61%;
+  top:32%;
+  height: 7%;
+  width: 7%;
+  background: transparent;
+  border: transparent;
+  display: none;
+  z-index: 102;
+}
+*/
+
+#hmr_btn_ops {
+  position: absolute;
+  left: 83%;
+  top: 46%;
+  height: 7%;
+  width: 9%;
+  background: transparent;
+  border: transparent;
+  display: none;
+  z-index: 102;
+}
+
+#hmr_btn {
+  position: absolute;
+  height: 11%;
+  width: 9%;
+  left: 81%;
+  top: 48%;
+  background: transparent;
+  z-index: 100;
+}
+
+
+#do_btn {
+  position: absolute;
+  height: 11%;
+  width: 8%;
+  left: 50%;
+  top: 42%;
+  border:transparent;
+  background: transparent;
+  z-index: 100;
+}
+
+#do_btn_ops {
+  position: absolute;
+  left: 50%;
+  top: 39%;
+  height: 7%;
+  width: 9%;
+  background: transparent;
+  border: transparent;
+  display: none;
+  z-index: 102;
+}
+
+#pmd_btn {
+  position: absolute;
+  height: 11%;
+  width: 9%;
+  left: 37%;
+  top: 35%;
+  border:transparent;
+  background: transparent;
+  z-index: 100;
+}
+
+#pmd_btn_ops {
+  position: absolute;
+  left: 37.5%;
+  top: 34%;
+  height: 7%;
+  width: 9%;
+  background: transparent;
+  border: transparent;
+  display: none;
+  z-index: 102;
+}
+
+#cmc_btn {
+  position: absolute;
+  height: 11%;
+  width: 8%;
+  left: 18%;
+  top: 29%;
+  border:transparent;
+  background: transparent;
+  z-index: 100;
+}
+
+#cmc_btn_ops {
+  position: absolute;
+  left: 19%;
+  top: 28%;
+  height: 7%;
+  width: 9%;
+  background: transparent;
+  border: transparent;
+  display: none;
+  z-index: 102;
+}
+
+#met_btn {
+  position: absolute;
+  height: 9%;
+  width: 8%;
+  left: 44%;
+  top: 34%;
+  border:transparent;
+  background: transparent;
+  z-index: 100;
+}
+
+#met_btn_ops {
+  position: absolute;
+  right: 48.5%;
+  top: 31%;
+  height: 7%;
+  width: 9%;
+  background: transparent;
+  border: transparent;
+  display: none;
+  z-index: 102;
+}
+
+#tg_btn {
+  position: absolute;
+  height: 11%;
+  width: 8%;
+  right: 20%;
+  top: 51%;
+  border:transparent;
+  background: transparent;
+  z-index: 100;
+}
+
+#tg_btn_ops {
+  position: absolute;
+  right: 21%;
+  top: 48%;
+  height: 7%;
+  width: 9%;
+  background: transparent;
+  border: transparent;
+  display: none;
+  z-index: 102;
+}
+
+#erl_btn {
+  position: absolute;
+  height: 11%;
+  width: 8%;
+  right: 27%;
+  top: 35%;
+  border:transparent;
+  background: transparent;
+  z-index: 100;
+}
+
+#erl_btn_ops {
+  position: absolute;
+  right: 27.5%;
+  top: 34%;
+  height: 7%;
+  width: 9%;
+  background: transparent;
+  border: transparent;
+  display: none;
+  z-index: 102;
+}
+
+.vid_ops {
+  position: absolute;
+  width: 30%;
+  padding: 0;
+  top:0%;
+  left: 0%;
+}
+
+.vid_ops_impc {
+  position: absolute;
+  width: 30%;
+  padding: 0;
+  top:0%;
+  left: 0%;
+}
+
+.pdf_ops {
+  position: absolute;
+  width: 30%;
+  left: 50%;
+  top: 0%;
+  transform:translateX(-50%);
+  justify-content: center;
+  padding: 0;
+}
+
+.ppt_ops {
+  position: absolute;
+  width: 30%;
+  padding: 0;
+  right:0%;
+  top:0%;
+}
+
+.ppt_ops_impc {
+  position: absolute;
+  width: 30%;
+  padding: 0;
+  left:30%;
+  top:0%;
+}
+
+.r_vid_ops {
+  position: absolute;
+  width: 30%;
+  padding: 0;
+  top: 0%;
+  left: 0%;
+}
+
+.r_pdf_ops {
+  position: absolute;
+  width: 30%;
+  left: 50%;
+  top: 0%;
+  transform:translateX(-50%);
+  justify-content: center;
+  padding: 0;
+}
+
+.r_ppt_ops {
+  position: absolute;
+  width: 30%;
+  padding: 0;
+  right: 0%;
+  top: 0%;
+}
+
+.w_vid_ops {
+  position: absolute;
+  width: 30%;
+  padding: 0;
+  top: 0%;
+  left: 0%;
+}
+
+.w_pdf_ops {
+  position: absolute;
+  width: 30%;
+  left: 50%;
+  top: 0%;
+  transform:translateX(-50%);
+  justify-content: center;
+  padding: 0;
+}
+
+.w_ppt_ops {
+  position: absolute;
+  width: 30%;
+  padding: 0;
+  right: 0%;
+  top: 0%;
+}
+
+
+#quit_div {
+  position: absolute;
+  height: 11%;
+  width: 6%;
+  top: 0%;
+  right: 0%;
+  display: none;
+  border: transparent;
+  background: transparent;
+  z-index: 1000;
+}
+
+#quit_img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border: transparent;
+  background:transparent;
+  z-index: 1000;
+}
+
+#gal1_btn {
+  position: absolute;
+  height: 7%;
+  width: 9%;
+  right: 1%;
+  top: 13%;
+  border:transparent;
+  background: transparent;
+  z-index: 100;
+}
+
+#gal2_btn {
+  position: absolute;
+  height: 5%;
+  width: 8%;
+  right: 1%;
+  top: 19%;
+  border:transparent;
+  background: transparent;
+  z-index: 100;
+}
+
+#info {
+  position: absolute;
+  height: 5%;
+  width: 21%;
+  right: 32%;
+  bottom: 2%;
+  background: transparent;
+  border: transparent;
+}

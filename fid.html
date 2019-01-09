@@ -2,25 +2,88 @@
 
   <head>
     <link type="text/css" href="fid.css" rel="stylesheet">
+    <script type="text/javascript" src="swfobject/swfobject/swfobject.js"></script>
   </head>
 
   <body>
     <div id="container">
-      <img id="fid_img" src="FID_BUILDING_menu_1.jpg" alt="FID Chakan">
-        <button id="ftl_btn"></button>
-        <button id="aml_btn"></button>
-        <button id="training_btn"></button>
-        <button id="cae_btn"></button>
-        <button id="home_btn"></button>
+   <audio id="a" src="ARAI_INTERACTIVE_MUSIC.mp3" autoplay loop  style="height:0; width:0; display:none;"><embed src="ARAI_INTERACTIVE_MUSIC.mp3" hidden="true" loop="true"/></audio>
+      <img id="fid_img" src="FID_BUILDING_new_menu.jpg" alt="FID Chakan">
+      <div id="pdf">
+        <object id="f" data="pdfs/academy.pdf" type="application/pdf" width="100%" height="100%";></object>
+        <div id="pdf_quit_div"><img id="pdf_quit_img" src="quit.png"></img></div>     
+        <div id="pdf_sendmail_div"><img id="pdf_sendmail_img" src="sendmail.png"></img></div>     
+      </div>
+
+        <div id="ftl_btn_ops">
+	  <img id="ftl_vid" class="vid_ops" src="symbols/vid.png" />
+	  <img id="ftl_pdf" class="pdf_ops" src="symbols/pdf.png" />
+	  <img id="ftl_ppt" class="ppt_ops" src="symbols/ppt.png" />
+        </div> 
+	<div id="ftl_btn"><img id="ftl_btn_img" class="btn" src="FID_FTL.gif" /></div>
+
+  <!-- Removed AML button in Dec 2018 -->
+  <!--
+      <div id="a_pdf">
+        <object id="appt" data="pdfs/aml.pdf" type="application/pdf" width="100%" height="100%";></object>
+        <div id="a_pdf_quit_div"><img id="a_pdf_quit_img" src="quit.png"></img></div>     
+        <div id="a_pdf_sendmail_div"><img id="a_pdf_sendmail_img" src="sendmail.png"></img></div>     
+      </div>
+        <div id="aml_btn_ops">
+	  <img id="aml_vid" class="vid_ops" src="symbols/vid.png" />
+	  <img id="aml_pdf" class="pdf_ops" src="symbols/pdf.png" />
+	  <img id="aml_ppt" class="ppt_ops" src="symbols/ppt.png" />
+        </div> 
+	<div id="aml_btn"><img id="aml_btn_img" class="btn" src="FID_AML.gif" /></div>
+  -->
+      <div id="t_pdf">
+        <object id="t" data="pdfs/academy.pdf" type="application/pdf" width="100%" height="100%";></object>
+        <div id="t_pdf_quit_div"><img id="t_pdf_quit_img" src="quit.png"></img></div>     
+        <div id="t_pdf_sendmail_div"><img id="t_pdf_sendmail_img" src="sendmail.png"></img></div>     
+      </div>
+        <div id="training_btn_ops">
+	  <img id="training_vid" class="vid_ops" src="symbols/vid.png" />
+	  <img id="training_pdf" class="pdf_ops" src="symbols/pdf.png" />
+	  <img id="training_ppt" class="ppt_ops" src="symbols/ppt.png" />
+        </div>
+        <!-- training button changed to academy button in June 2018 -->
+        <div id="training_btn"><img id="training_btn_img" class="btn" src="FID_ACADEMY.gif" /></div>
+
+  <!-- Removed CAE button in Dec 2018 -->      
+  <!--      
+      <div id="c_pdf">
+        <object id="ppt" data="pdfs/cae.pdf" type="application/pdf" width="100%" height="100%";></object>
+        <div id="c_pdf_quit_div"><img id="c_pdf_quit_img" src="quit.png"></img></div>     
+        <div id="c_pdf_sendmail_div"><img id="c_pdf_sendmail_img" src="sendmail.png"></img></div>     
+      </div>
+
+        <div id="cae_btn_ops">
+	  <img id="cae_vid" class="vid_ops" src="symbols/vid.png" />
+	  <img id="cae_pdf" class="pdf_ops" src="symbols/pdf.png" />
+	  <img id="cae_ppt" class="ppt_ops" src="symbols/ppt.png" />
+        </div> 
+        <div id="cae_btn"><img id="cae_btn_img" class="btn" src="FID_CAE.gif" /></div>
+  -->
+
+        <div id="home_btn"></div>
+
         <div id="video_container">
           <div id="quit_div">
-            <img id="quit_img" src="quit.png">
-              <button id="quit_btn"></button>
-            </img>
+            <img id="quit_img" src="quit.png"></img>
           </div>
         </div>
+
+    <!-- Removed gallery buttons in Dec 2018 -->    
+    <!--
+    <img id="ftlg" src="gallery/FTL_GAL.gif"></img>
+    -->
+    <img id="gal" src="gallery/INFO.gif"></img>
+    
+    <img id="touch" src="touch.png"></img>
+    <img id="info" src="info.png"></img>
       </img>
     </div>
+
 
     <script type="text/javascript" src="fid.js"></script>
   </body>

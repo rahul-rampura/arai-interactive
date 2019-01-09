@@ -1,0 +1,118 @@
+<html>
+
+<head>
+    <link type="text/css" href="key.css" rel="stylesheet">
+    <link type="text/css" href="jquery-ui.css" rel="stylesheet">
+    <link type="text/css" href="keyboard.css" rel="stylesheet">
+</head>
+
+
+<body>
+
+<div id="wrap">
+    <h2>Enquiry Form</h2>
+    <div id="form_quit_div"><img id="form_quit_img" src="quit.png"></img></div>
+    <!-- <br> -->
+    <form name="submit-to-google-sheet" action="#">
+        <div class="fieldset-standard">
+            <fieldset>
+
+                <div class="fieldset-grouping">
+                    <label for="Name">Name</label>
+                    <input type="text" class="keyboard-normal" id="first-name" name="Name" placeholder="Name" required>
+                </div>
+
+                <div class="fieldset-grouping">
+                    <label for="Email">Email</label>
+                    <input type="email" class="keyboard-normal" id="last-name" name="Email" placeholder="Email" required>
+                </div>
+
+                <div class="fieldset-grouping">
+                    <label for="Organization">Organization</label>
+                    <input type="text" class="keyboard-normal" id="address" name="Organization" placeholder="Organization" required>
+                </div>
+
+                <div class="fieldset-grouping">
+                    <label for="Address">Address</label>
+                    <input type="text" class="keyboard-normal" id="city" name="Address" placeholder="Address">
+                </div>
+
+            <!--
+                <div class="fieldset-grouping">
+                    <label for="state">State</label>
+                    <input type="text" class="keyboard-states" id="state" name="state" value="" maxlength="2">
+                </div>
+
+                <div class="fieldset-grouping">
+                    <label for="zip-code">File</label>
+                    <input type="file" name="zip-code" accept=".pdf" required>
+                </div>
+            -->
+                <div class="fieldset-grouping">
+                    <label for="Mobile">Mobile</label>
+                    <input type="text" id="phone" class="keyboard-num keyboard-phone" name="Mobile" placeholder="Mobile" maxlength="13" required>
+                </div>
+
+                <div class="fieldset-grouping">
+                    <label for="Area of Interest">Area of Interest</label>
+                    <input type="text" id="tithe" class="keyboard-normal" name="Interests" placeholder="Interests" required>
+                </div>
+            <!--
+                <div class="fieldset-grouping">
+                    <label for="missions">Missions <small>(USD)</small></label>
+                    <input type="text" id="missions" class="keyboard-normal" name="missions" value="">
+                </div>
+
+                <div class="fieldset-grouping">
+                    <label for="building">Building <small>(USD)</small></label>
+                    <input type="text" id="building" class="keyboard-normal" name="building" value="">
+                </div>
+            --> 
+
+                <div class="fieldset-grouping">
+                    <input type="hidden" id="link" name="Link" value="Here is the link to the brochure you requested:
+https://drive.google.com/file/d/1v9GzyiXC6i_D5IgWb7-0AoC7SEmjQOYL/view?usp=sharing
+
+Thanks for visiting SIAT 2019." required>
+                </div>
+
+                <div class="submit-grouping">
+                    <input type="submit" value="Send">
+                </div>
+
+            </fieldset>
+        </div>
+    </form>
+</div>
+
+<script>
+    //const scriptURL = 'https://script.google.com/macros/s/AKfycbyYS-0MlY4J9YPwfqi23vpIYNgGuEjuJhaFjM3uA5nAHLrwW_g/exec'
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyS6fJaAb6qOTy2l9-iiCHik2Adx2suf28gFPJipSc3DIUQSDSO/exec'
+    const form = document.forms['submit-to-google-sheet']
+    var stored = 0;
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+        setTimeout(function() {
+            window.location.href =  "home.html";
+        }, 1000);
+        //window.location.href = "home.html";
+    })
+
+</script>
+
+<!--<input onclick="window.location.href = 'home.html';" type="submit" value="Submit request" />-->
+
+
+<script src="jquery-1.6.4.js"></script>
+<script src="jquery.keyboard.js"></script>
+<script src="jquery.mousewheel.js"></script>
+<script src="jquery.keyboard.extension-typing.js"></script>
+<script src="jquery.keyboard.extension-autocomplete.js"></script>
+<script src="key.js"></script>
+
+</body>
+</html>

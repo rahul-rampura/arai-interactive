@@ -14,33 +14,66 @@
 
 #kothrud_btn {
   position: absolute;
-  height: 50%;
-  width: 30%;
-  bottom: 7%;
-  left: 2%;
+  height: 59%;
+  width: 32.5%;
+  top: 41%;
+  bottom: 1%;
+  left: 0%;
   border:transparent;
   background: transparent;
+}
+
+#kothrud_btn_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-animation-name: example;
+  -webkit-animation-duration: 2s;
 }
 
 #htc_btn {
   position: absolute;
-  height: 50%;
-  width: 30%;
-  top: 42%;
-  left: 35%;
-  bottom: 7%;
+  height: 59%;
+  width: 32.5%;
+  top: 41%;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 1%;
   border:transparent;
   background: transparent;
 }
 
+#htc_btn_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-animation-name: example;
+  -webkit-animation-duration: 5s;
+}
+
 #fid_btn {
   position: absolute;
-  height: 50%;
-  width: 30%;
-  bottom: 7%;
-  right: 2%;
+  height: 59%;
+  width: 32.5%;
+  top: 41%;
+  bottom: 1%;
+  right: 0%;
   border:transparent;
   background: transparent;
+}
+
+#fid_btn_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-animation-name: example;
+  -webkit-animation-duration: 8s;
 }
 
 #exit_btn {
@@ -51,5 +84,10 @@
   top: 4%;
   border:transparent;
   background: transparent;
+}
+
+@-webkit-keyframes example {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 

@@ -5,6 +5,92 @@
   width: 100%;
 }
 
+#ftlg {
+  position: absolute;
+  height: 7%;
+  width: 9%;
+  right: 2%;
+  top: 22%;
+
+}
+
+#gal {
+  position: absolute;
+  height: 7%;
+  width: 9.5%;
+  right: 1%;
+  top: 16%;
+
+}
+
+#touch {
+  position: absolute;
+  height: 9%;
+  width: 30%;
+  right: 4%;
+  bottom: -1%;
+  background: transparent;
+  border: transparent;
+}
+
+#info {
+  position: absolute;
+  height: 5%;
+  width: 18%;
+  right: 36%;
+  bottom: 1.5%;
+  background: transparent;
+  border: transparent;
+}
+
+#pdf {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  display: none;
+}
+
+#pdf_quit_div {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  height: 5%;
+  width: 3%;
+  background: transparent;
+  border: transparent;
+  display: none;
+}
+
+#pdf_quit_img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: transparent;
+  
+}
+
+#pdf_sendmail_div {
+  position: absolute;
+  top: 4%;
+  right: 0%;
+  height: 10%;
+  width: 8%;
+  background: transparent;
+  border: transparent;
+  display: none;
+}
+
+#pdf_sendmail_img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: transparent;
+  
+}
 #fid_img {
   position: absolute;
   height:100%;
@@ -20,54 +106,198 @@
   transform: translate(-50%,-50%);
   border: transparent;
   background: transparent; 
-  z-index: 1000;
 }
 
 #ftl_btn {
   position: absolute;
-  height: 13%;
-  width: 15%;
-  left: 11%;
-  top: 42%;
+  height: 17%;
+  width: 12%;
+  left: 13%;
+  top: 33%;
   border:transparent;
   background: transparent;
+  z-index: 100;
 }
 
 #aml_btn {
   position: absolute;
-  height: 13%;
-  width: 15%;
-  left: 28%;
-  top: 41%;
+  height: 15%;
+  width: 13%;
+  left: 30%;
+  top: 34%;
   border:transparent;
   background: transparent;
+  z-index: 100;
+}
+
+#a_pdf {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  display: none;
+}
+
+#a_pdf_quit_div {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  height: 5%;
+  width: 3%;
+  background: transparent;
+  border: transparent;
+  display: none;
+}
+
+#a_pdf_quit_img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: transparent;
+}
+
+#a_pdf_sendmail_div {
+  position: absolute;
+  top: 4%;
+  right: 0%;
+  height: 10%;
+  width: 8%;
+  background: transparent;
+  border: transparent;
+  display: none;
+}
+
+#a_pdf_sendmail_img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: transparent;
 }
 
 #training_btn {
   position: absolute;
-  height: 12%;
+  height: 19%;
   width: 14%;
-  right: 34%;
-  top: 40%;
+  right: 36%;
+  top: 29%;
   border:transparent;
   background: transparent;
+  z-index: 100;
 }
 
 #cae_btn {
   position: absolute;
-  height: 10%;
-  width: 11%;
-  right: 20%;
-  top: 40%;
+  height: 11%;
+  width: 9%;
+  right: 22%;
+  top: 33%;
   border:transparent;
   background: transparent;
+  z-index: 100;
+}
+
+#c_pdf {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  display: none;
+}
+
+#c_pdf_quit_div {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  height: 5%;
+  width: 3%;
+  background: transparent;
+  border: transparent;
+  display: none;
+}
+
+#c_pdf_quit_img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: transparent;
+}
+
+#c_pdf_sendmail_div {
+  position: absolute;
+  top: 4%;
+  right: 0%;
+  height: 10%;
+  width: 8%;
+  background: transparent;
+  border: transparent;
+  display: none;
+}
+
+#c_pdf_sendmail_img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: transparent;
+}
+
+#t_pdf {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  display: none;
+}
+
+#t_pdf_quit_div {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  height: 5%;
+  width: 3%;
+  background: transparent;
+  border: transparent;
+  display: none;
+}
+
+#t_pdf_quit_img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: transparent;
+}
+
+#t_pdf_sendmail_div {
+  position: absolute;
+  top: 4%;
+  right: 0%;
+  height: 10%;
+  width: 8%;
+  background: transparent;
+  border: transparent;
+  display: none;
+}
+
+#t_pdf_sendmail_img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: transparent;
 }
 
 #home_btn {
   position: absolute;
   height: 10%;
-  width: 8%;
-  right: 0%;
+  width: 5%;
+  right: 2%;
   top: 2%;
   border:transparent;
   background: transparent;
@@ -75,25 +305,103 @@
 
 #quit_div {
   position: absolute;
-  height: 15%;
+  height: 11%;
   width: 6%;
   top: 0%;
   right: 0%;
   display: none;
   border: transparent;
   background: transparent;
+  z-index: 1000;
 }
 
 #quit_img {
   position: absolute;
   height: 100%;
   width: 100%;
-}
-
-#quit_btn {
-  position: absolute;
-  height: 100%;
-  width: 100%;
   border: transparent;
   background:transparent;
+  z-index: 1000;
+}
+
+.btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.vid_ops {
+  position: absolute;
+  width: 30%;
+  padding: 0;
+  top:0%;
+  left: 0%;
+}
+
+.pdf_ops {
+  position: absolute;
+  width: 30%;
+  left: 50%;
+  top: 0%;
+  transform:translateX(-50%);
+  justify-content: center;
+  padding: 0;
+}
+
+.ppt_ops {
+  position: absolute;
+  width: 30%;
+  padding: 0;
+  right:0%;
+  top:0%;
+}
+
+#ftl_btn_ops {
+  position: absolute;
+  left: 14%;
+  top: 28%;
+  height: 8%;
+  width: 10%;
+  background: transparent;
+  border: transparent;
+  display: none;
+  z-index: 102;
+}
+
+#aml_btn_ops {
+  position: absolute;
+  left: 32%;
+  top: 28.5%;
+  height: 8%;
+  width: 10%;
+  background: transparent;
+  border: transparent;
+  display: none;
+  z-index: 102;
+}
+
+#training_btn_ops {
+  position: absolute;
+  right: 39%;
+  top: 29%;
+  height: 8%;
+  width: 10%;
+  background: transparent;
+  border: transparent;
+  display: none;
+  z-index: 102;
+}
+
+#cae_btn_ops {
+  position: absolute;
+  right: 23%;
+  top: 28%;
+  height: 8%;
+  width: 10%;
+  background: transparent;
+  border: transparent;
+  display: none;
+  z-index: 102;
 }
