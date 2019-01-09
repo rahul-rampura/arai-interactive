@@ -131,12 +131,36 @@
   z-index: 102;
 }
 
+#pte_btn_ops_text {
+  position: absolute;
+  left: 38%;
+  top: 21%;
+  height: 3%;
+  width: 3%;
+  background: transparent;
+  border: transparent;
+  display: none;
+  z-index: 102;
+}
+
 #pte_btn_ops2 {
   position: absolute;
   left: 36%;
   top: 32%;
   height: 7%;
   width: 9%;
+  background: transparent;
+  border: transparent;
+  display: none;
+  z-index: 102;
+}
+
+#pte_btn_ops2_text {
+  position: absolute;
+  left: 36%;
+  top: 32%;
+  height: 3%;
+  width: 3%;
   background: transparent;
   border: transparent;
   display: none;
@@ -509,7 +533,7 @@
 #cmc_btn_ops {
   position: absolute;
   left: 19%;
-  top: 28%;
+  top: 27%;
   height: 7%;
   width: 9%;
   background: transparent;

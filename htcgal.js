@@ -2,36 +2,42 @@
 
     var mcs = document.getElementById('mcs');
     var ncsm = document.getElementById('ncsm');
+    var aml = document.getElementById('aml');
+    var arai = document.getElementById('arai');
 
     var back = document.getElementById('back');
 
     //Embedding video
     var vid = document.createElement('video');
     vid.id = "vid";
-    vid.muted = "muted";
+    //vid.muted = "muted";
     vid.loop = "loop";
+    vid.controls = "controls";
     vid.style.width = "100%";
 
     //Embedding video
+    /*
     var vid2 = document.createElement('video');
     vid2.id = "vid";
     vid2.muted = "muted";
     vid2.loop = "loop";
     vid2.style.width = "100%";
+    */
 
     //Embedding video
+    /*
     var vid3 = document.createElement('video');
     vid3.id = "vid";
     vid3.muted = "muted";
     vid3.loop = "loop";
     vid3.style.width = "100%";
+    */
 
     mcs.addEventListener('click', function() {
-
-           mcs.style.opacity = "1";
-           ncsm.style.opacity = "0.5";
-            vid2.style.display = "block";
-            vid3.style.display = "block";
+            location.href = "gal5.html";
+            //vid2.style.display = "block";
+            //vid3.style.display = "block";
+            /*
             var vc = document.getElementById('video_container');
             vc.style.height = "44%";
             vc.style.width = "29%";
@@ -48,7 +54,9 @@
                 vc.style.zIndex = "1";
                 audio.play();
             });
+            */
 
+            /*
             var vc2 = document.getElementById('video2_container');
             vc2.style.height = "30%";
             vc2.style.width = "28%";
@@ -65,8 +73,9 @@
                 vc2.style.zIndex = "1";
                 audio.play();
             });
+            */
 
-
+            /*
             var vc3 = document.getElementById('video3_container');
             vc3.style.height = "47%";
             vc3.style.width = "28%";
@@ -83,13 +92,14 @@
                 vc.style.zIndex = "1";
                 audio.play();
             });
+            */
 
 
     });
 
     ncsm.addEventListener('click', function() {
-          
-
+          location.href = "gal4.html";
+        /*
            mcs.style.opacity = "0.5";
            ncsm.style.opacity = "1";
             vid2.style.display = "none";
@@ -109,6 +119,7 @@
             audio.pause();
             //document.getElementById('quit_div').style.display = "block";
             vid.play();
+        */
             /*
             quit_img.addEventListener('click', function() {
                 console.log('Quit clicked');
@@ -118,16 +129,49 @@
                 vid.pause();
             });
             */
+           /*
             vid.addEventListener('ended', function() {
                 location.href = "fid.html";
                 vc.style.zIndex = "1";
                 audio.play();
             });
+            */
     });
 
-    
+    aml.addEventListener('click', function() {
+        location.href = "gal5.html";
+    });
+
+    arai.addEventListener('click', function() {
+
+            var vc = document.getElementById('video_container');
+            //vc.style.height = "44%";
+            //vc.style.width = "29%";
+            //vc.style.top = "10%";
+            //vc.style.left = "39%";
+            vc.style.display = 'block';
+            vc.style.zIndex = "1000";
+            vid.src = "vid/ARAI_informative.mp4";
+            vc.appendChild(vid);
+            audio.pause();
+            document.getElementById('quit_div').style.display = "block";
+            vid.play();
+            quit_img.addEventListener('click', function() {
+                console.log('Quit clicked');
+                vc.style.zIndex = "1";
+                vc.style.display = 'none';
+                vid.pause();
+                audio.play();
+            });
+            vid.addEventListener('ended', function() {
+                location.href = "htc.html";
+                vc.style.zIndex = "1";
+                audio.play();
+            });
+    })
+
 
 
     back.addEventListener('click', function() {
-        location.href = "htcgal.html";
+        location.href = "htc.html";
     });

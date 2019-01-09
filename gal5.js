@@ -1139,7 +1139,7 @@
 
 
     back.addEventListener('click', function() {
-        location.href = "htc.html";
+        location.href = "htcgal.html";
     });
 
 

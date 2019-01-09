@@ -39,7 +39,9 @@
 
     //pte options
     var pte_ops = document.getElementById('pte_btn_ops');
+    var pte_ops_text = document.getElementById('pte_btn_ops_text');
     var pte_ops2 = document.getElementById('pte_btn_ops2');
+    var pte_ops2_text = document.getElementById('pte_btn_ops2_text');
     var pte_img = document.getElementById('pte_btn_img');
     var pte_vid = document.getElementById('pte_vid');
     var pte_pdf = document.getElementById('pte_pdf');
@@ -329,6 +331,8 @@
         tg_ops.style.display = "none";
         erl_ops.style.display = "none";
         cmc_ops.style.display = "none";
+        pte_ops_text.style.display = "none";
+        pte_ops2_text.style.display = "none";
 
         cae_vid.addEventListener('click', function() {
         document.getElementById('coming_soon').style.display = 'none';
@@ -421,6 +425,8 @@
         met_ops.style.display = "none";
         tg_ops.style.display = "none";
         erl_ops.style.display = "none";
+        pte_ops_text.style.display = "none";
+        pte_ops2_text.style.display = "none";
 
         ecl_vid.addEventListener('click', function() {
         document.getElementById('coming_soon').style.display = 'none';
@@ -520,6 +526,8 @@
         met_ops.style.display = "none";
         tg_ops.style.display = "none";
         erl_ops.style.display = "none";
+        pte_ops_text.style.display = "block";
+        pte_ops2_text.style.display = "block";
 
         pte_vid.addEventListener('click', function() {
         document.getElementById('coming_soon').style.display = 'none';
@@ -630,6 +638,8 @@
         met_ops.style.display = "none";
         tg_ops.style.display = "none";
         erl_ops.style.display = "none";
+        pte_ops_text.style.display = "none";
+        pte_ops2_text.style.display = "none";
         
         shl_vid.addEventListener('click', function() {
         document.getElementById('coming_soon').style.display = 'none';
@@ -726,6 +736,8 @@
         met_ops.style.display = "none";
         tg_ops.style.display = "none";
         erl_ops.style.display = "none";
+        pte_ops_text.style.display = "none";
+        pte_ops2_text.style.display = "none";
 
         psl_vid.addEventListener('click', function() {
         document.getElementById('coming_soon').style.display = 'none';
@@ -818,6 +830,8 @@
         met_ops.style.display = "none";
         tg_ops.style.display = "none";
         erl_ops.style.display = "none";
+        pte_ops_text.style.display = "none";
+        pte_ops2_text.style.display = "none";
 
         nvh_vid.addEventListener('click', function() {
         document.getElementById('coming_soon').style.display = 'none';
@@ -913,6 +927,8 @@
         met_ops.style.display = "none";
         tg_ops.style.display = "none";
         erl_ops.style.display = "none";
+        pte_ops_text.style.display = "none";
+        pte_ops2_text.style.display = "none";
 
         vel_vid.addEventListener('click', function() {
         document.getElementById('coming_soon').style.display = 'none';
@@ -1004,6 +1020,8 @@
         met_ops.style.display = "none";
         tg_ops.style.display = "none";
         erl_ops.style.display = "none";
+        pte_ops_text.style.display = "none";
+        pte_ops2_text.style.display = "none";
 
         sdl_vid.addEventListener('click', function() {
         document.getElementById('coming_soon').style.display = 'none';
@@ -1095,6 +1113,8 @@
         met_ops.style.display = "none";
         tg_ops.style.display = "none";
         erl_ops.style.display = "none";
+        pte_ops_text.style.display = "none";
+        pte_ops2_text.style.display = "none";
 
         cal_vid.addEventListener('click', function() {
         document.getElementById('coming_soon').style.display = 'none';
@@ -1186,6 +1206,8 @@
         met_ops.style.display = "none";
         tg_ops.style.display = "none";
         erl_ops.style.display = "none";
+        pte_ops_text.style.display = "none";
+        pte_ops2_text.style.display = "none";
 
         aed_vid.addEventListener('click', function() {
         document.getElementById('coming_soon').style.display = 'none';
@@ -1375,6 +1397,8 @@
         met_ops.style.display = "none";
         tg_ops.style.display = "none";
         erl_ops.style.display = "none";
+        pte_ops_text.style.display = "none";
+        pte_ops2_text.style.display = "none";
 
         impc_vid.addEventListener('click', function() {
         document.getElementById('coming_soon').style.display = 'none';
@@ -1661,6 +1685,8 @@
         met_ops.style.display = "none";
         tg_ops.style.display = "none";
         erl_ops.style.display = "none";
+        pte_ops_text.style.display = "none";
+        pte_ops2_text.style.display = "none";
 
         do_vid.addEventListener('click', function() {
         document.getElementById('coming_soon').style.display = 'none';
@@ -1754,6 +1780,8 @@
         met_ops.style.display = "none";
         tg_ops.style.display = "none";
         erl_ops.style.display = "none";
+        pte_ops_text.style.display = "none";
+        pte_ops2_text.style.display = "none";
 
         hmr_vid.addEventListener('click', function() {
         document.getElementById('video_container').style.display = 'none';
@@ -1858,6 +1886,8 @@
         met_ops.style.display = "none";
         tg_ops.style.display = "none";
         erl_ops.style.display = "none";
+        pte_ops_text.style.display = "none";
+        pte_ops2_text.style.display = "none";
 
         cmc_vid.addEventListener('click', function() {
         document.getElementById('video_container').style.display = 'none';
@@ -1976,6 +2006,8 @@
         met_ops.style.display = "none";
         tg_ops.style.display = "none";
         erl_ops.style.display = "none";
+        pte_ops_text.style.display = "none";
+        pte_ops2_text.style.display = "none";
 
         pmd_vid.addEventListener('click', function() {
         document.getElementById('video_container').style.display = 'none';
@@ -2096,6 +2128,8 @@
         met_ops.style.display = "block";
         tg_ops.style.display = "none";
         erl_ops.style.display = "none";
+        pte_ops_text.style.display = "none";
+        pte_ops2_text.style.display = "none";
 
         met_vid.addEventListener('click', function() {
         document.getElementById('video_container').style.display = 'none';
@@ -2217,6 +2251,8 @@
         met_ops.style.display = "none";
         tg_ops.style.display = "block";
         erl_ops.style.display = "none";
+        pte_ops_text.style.display = "none";
+        pte_ops2_text.style.display = "none";
 
         tg_vid.addEventListener('click', function() {
             document.getElementById('video_container').style.display = 'none';
@@ -2436,6 +2472,8 @@
         tg_ops.style.display = "none";
         erl_ops.style.display = "none";
         coming.style.display = "none";
+        pte_ops_text.style.display = "none";
+        pte_ops2_text.style.display = "none";
     });
 
     gal2_btn.addEventListener('click', function() {
@@ -2462,6 +2500,8 @@
         met_ops.style.display = "none";
         tg_ops.style.display = "none";
         erl_ops.style.display = "none";
+        pte_ops_text.style.display = "none";
+        pte_ops2_text.style.display = "none";
         coming.style.display = "none";
         document.getElementById('coming_soon').style.display = 'none';
          

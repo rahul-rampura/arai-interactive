@@ -3,10 +3,10 @@
     var audio = document.getElementById('a');
     var cs = document.getElementById('cs');
 
-    var gal = document.getElementById('gal');
-    var gal1_btn = document.getElementById('gal1_btn');
+    //var gal = document.getElementById('gal');
+    //var gal1_btn = document.getElementById('gal1_btn');
     var gal2_btn = document.getElementById('gal2_btn');
-    var gal3_btn = document.getElementById('gal3_btn');
+    //var gal3_btn = document.getElementById('gal3_btn');
 
      //Buttons
     var htc_fmc_btn = document.getElementById('fmc_btn');
@@ -26,16 +26,19 @@
     //fmc options
     var fmc_img = document.getElementById('fmc_btn_img');
     var fmc_ops = document.getElementById('fmc_btn_ops');
+    var fmc_ops_text = document.getElementById('fmc_btn_ops_text');
     var fmc_vid = document.getElementById('fmc_vid');
     var fmc_pdf = document.getElementById('fmc_pdf');
     var fmc_ppt = document.getElementById('fmc_ppt');
 
     var fmc_ops2 = document.getElementById('fmc_btn_ops2');     // ops2 added in Dec 2018
+    var fmc_ops2_text = document.getElementById('fmc_btn_ops2_text');     // ops2 added in Dec 2018
     var fmc_vid2 = document.getElementById('fmc_vid2');
     var fmc_pdf2 = document.getElementById('fmc_pdf2');
     var fmc_ppt2 = document.getElementById('fmc_ppt2');
 
     var fmc_ops3 = document.getElementById('fmc_btn_ops3');     // ops3 added in Dec 2018
+    var fmc_ops3_text = document.getElementById('fmc_btn_ops3_text');     // ops3 added in Dec 2018
     var fmc_pdf3 = document.getElementById('fmc_pdf3');
 
     //psl options
@@ -120,6 +123,10 @@
         ptl_ops.style.display = "none";
         training_ops.style.display = "none";
         ev_ops.style.display = "none";
+        
+        fmc_ops_text.style.display = "block";    
+        fmc_ops2_text.style.display = "block";    
+        fmc_ops3_text.style.display = "block";
 
         fmc_vid.addEventListener('click', function() {
            
@@ -275,6 +282,9 @@
         fmc_ops2.style.display = "none";
         fmc_ops3.style.display = "none";
         ev_ops.style.display = "none";
+        fmc_ops_text.style.display = "none";    
+        fmc_ops2_text.style.display = "none";    
+        fmc_ops3_text.style.display = "none";
 
         ptl_vid.addEventListener('click', function() {
             
@@ -348,6 +358,9 @@
         fmc_ops2.style.display = "none";
         fmc_ops3.style.display = "none";
         ev_ops.style.display = "none";
+        fmc_ops_text.style.display = "none";    
+        fmc_ops2_text.style.display = "none";    
+        fmc_ops3_text.style.display = "none";
 
         /*
         console.log('Play htctraining video');
@@ -459,6 +472,9 @@
         ptl_ops.style.display = "none";
         training_ops.style.display = "none";
         ev_ops.style.display = "none";
+        fmc_ops_text.style.display = "none";    
+        fmc_ops2_text.style.display = "none";    
+        fmc_ops3_text.style.display = "none";
 
         psl_vid.addEventListener('click', function() {
             document.getElementById('htc_video_container').style.display = 'visible';
@@ -533,6 +549,9 @@
         fmc_ops2.style.display = "none";
         fmc_ops3.style.display = "none";
         ev_ops.style.display = "block";
+        fmc_ops_text.style.display = "none";    
+        fmc_ops2_text.style.display = "none";    
+        fmc_ops3_text.style.display = "none";
 
         /*        
         console.log('Play htcev video');
@@ -647,9 +666,12 @@
         fmc_ops3.style.display = "none";
         ev_ops.style.display = "none";
         cs.style.display = 'none';
+        fmc_ops_text.style.display = "none";    
+        fmc_ops2_text.style.display = "none";    
+        fmc_ops3_text.style.display = "none";
     });
 
-
+    /*
     gal.addEventListener('click', function() {
         location.href = "gal5.html";
     });
@@ -657,11 +679,13 @@
     gal1_btn.addEventListener('click', function() {
         location.href = 'gal4.html';
     });
-    
+    */
+
     gal2_btn.addEventListener('click', function() {
-        location.href = 'gal5.html';
+        location.href = 'htcgal.html';
     });
-    
+
+    /*
     gal3_btn.addEventListener('click', function() {
         training_ops.style.display = "none";
         psl_ops.style.display = "none";
@@ -695,6 +719,7 @@
             });
             
     });
+    */
 
     htc_home_btn.addEventListener('click', function() {
         location.href = "home.html";

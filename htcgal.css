@@ -1,0 +1,109 @@
+#container {
+  position: relative;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+
+#video_container {
+  position: absolute;
+  height: 50%;
+  width: 33%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border: transparent;
+  background: transparent;
+}
+
+#video2_container {
+  position: absolute;
+  height: 50%;
+  width: 33%;
+  top: 43%;
+  left: 83%;
+  border: transparent;
+  background: transparent;
+}
+
+#video3_container {
+  position: absolute;
+  height: 50%;
+  width: 33%;
+  top: 67%;
+  left: 25%;
+  border: transparent;
+  background: transparent;
+}
+
+#gal2_img {
+  position: absolute;
+  height:100%;
+  width:100%;
+}
+
+.btn {
+  position: absolute;
+  height: 11%;
+  width: 17%;
+  z-index: 100;
+  /*opacity: 0.5;*/
+}
+
+#mcs {
+  left: 7.5%;
+  top: 13%;
+  width: 21%;
+  height: 15%;
+}
+
+#ncsm {
+  left: 8.5%;
+  top: 25%;
+  width: 20%;
+  height: 11%;
+}
+
+#aml {
+  left: 8%;
+  top: 34%;
+  width: 20%;
+  height: 10%;
+}
+
+#arai {
+  left: 9.5%;
+  top: 45%;
+  width: 20%;
+  height: 8%;
+}
+
+#back {
+  position: absolute;
+  right: 1%;
+  bottom: 1%;
+  height: 9%;
+  width: 5%;
+  background: transparent;
+  border: transparent;
+}
+
+#quit_div {
+  position: absolute;
+  height: 15%;
+  width: 6%;
+  top: 0%;
+  right: 0%;
+  display: none;
+  border: transparent;
+  background: transparent;
+}
+
+#quit_img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border: transparent;
+  background:transparent;
+  z-index: 1000;
+}
