@@ -788,7 +788,7 @@
         vid.pause();
         audio.play();
             //swfobject.embedSWF("cal.swf", "container", "100%", "100%", "9.0.0");
-            document.getElementById('psl').data = "ppts/PSL.pdf";
+            document.getElementById('psl').data = "ppts/PSL_latest.pdf";
             psl_pdf_div.style.zIndex = "1000";
             psl_pdf_div.style.display = "block";
             psl_pdf_quit_div.style.display = "block";
@@ -1739,7 +1739,7 @@
         vid.pause();
         audio.play();
             //swfobject.embedSWF("cal.swf", "container", "100%", "100%", "9.0.0");
-            document.getElementById('do').data = "ppts/BDCP.pdf";
+            document.getElementById('do').data = "ppts/BDCP_latest.pdf";
             do_pdf_div.style.zIndex = "1000";
             do_pdf_div.style.display = "block";
             do_pdf_quit_div.style.display = "block";

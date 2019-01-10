@@ -157,13 +157,13 @@
                 vid.pause();
                 audio.play();
             document.getElementById('htc_video_container').style.display = 'none';
-            document.getElementById('fmc').data = "pdfs/fmce.pdf";
+            document.getElementById('fmc').data = "pdfs/sdl.pdf";
             htc_fmc_pdf.style.zIndex = "1000";
             htc_fmc_pdf.style.display = "block";
             fmc_pdf_quit_div.style.display = "block";
             fmc_pdf_sendmail_div.style.display = "block";
             fmc_pdf_sendmail_img.addEventListener('click', function() {
-                location.href = "key3.html";
+                location.href = "key11.html";
             });
             fmc_pdf_quit_img.addEventListener('click', function() {
                 htc_fmc_pdf.style.display = "none";
@@ -251,13 +251,13 @@
                 vid.pause();
                 audio.play();
             document.getElementById('htc_video_container').style.display = 'none';
-            document.getElementById('fmc').data = "pdfs/fmce_bottom.pdf";
+            document.getElementById('fmc').data = "pdfs/fmce.pdf";
             htc_fmc_pdf.style.zIndex = "1000";
             htc_fmc_pdf.style.display = "block";
             fmc_pdf_quit_div.style.display = "block";
             fmc_pdf_sendmail_div.style.display = "block";
             fmc_pdf_sendmail_img.addEventListener('click', function() {
-                location.href = "key5.html";
+                location.href = "key3.html";
             });
             fmc_pdf_quit_img.addEventListener('click', function() {
                 htc_fmc_pdf.style.display = "none";
