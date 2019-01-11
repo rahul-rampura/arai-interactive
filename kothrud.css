@@ -122,7 +122,7 @@
 #pte_btn_ops {
   position: absolute;
   left: 36%;
-  top: 23%;
+  top: 22%;
   height: 7%;
   width: 9%;
   background: transparent;
@@ -134,7 +134,7 @@
 #pte_btn_ops_text {
   position: absolute;
   left: 38%;
-  top: 21%;
+  top: 20%;
   height: 3%;
   width: 3%;
   background: transparent;
@@ -145,8 +145,8 @@
 
 #pte_btn_ops2 {
   position: absolute;
-  left: 36%;
-  top: 32%;
+  left: 35%;
+  top: 31.5%;
   height: 7%;
   width: 9%;
   background: transparent;
@@ -157,8 +157,8 @@
 
 #pte_btn_ops2_text {
   position: absolute;
-  left: 36.5%;
-  top: 32%;
+  left: 41%;
+  top: 33%;
   height: 3%;
   width: 3%;
   background: transparent;
@@ -556,7 +556,7 @@
 #met_btn_ops {
   position: absolute;
   right: 48.5%;
-  top: 31%;
+  top: 30.5%;
   height: 7%;
   width: 9%;
   background: transparent;
@@ -602,7 +602,7 @@
 #erl_btn_ops {
   position: absolute;
   right: 27.5%;
-  top: 34%;
+  top: 33.5%;
   height: 7%;
   width: 9%;
   background: transparent;
@@ -729,10 +729,10 @@
 
 #gal1_btn {
   position: absolute;
-  height: 7%;
-  width: 9%;
-  right: 1%;
-  top: 13%;
+  height: 9%;
+  width: 9.5%;
+  right: 0.4%;
+  top: 12%;
   border:transparent;
   background: transparent;
   z-index: 100;
@@ -743,7 +743,7 @@
   height: 5%;
   width: 8%;
   right: 1%;
-  top: 19%;
+  top: 20%;
   border:transparent;
   background: transparent;
   z-index: 100;

@@ -438,13 +438,14 @@
                 vid.pause();
                 audio.play();
             document.getElementById('htc_video_container').style.display = 'none';
+            /*
             cs.style.right = "65%";
 			cs.style.top = "15%";
             cs.style.display = 'block';
-            /*
-            document.getElementById('htc_video_container').style.display = 'none';
+            */
+            //document.getElementById('htc_video_container').style.display = 'none';
             //swfobject.embedSWF("cal.swf", "container", "100%", "100%", "9.0.0");
-            document.getElementById('t').data = "ppts/PTL.pdf"
+            document.getElementById('t').data = "ppts/tgtc.pdf"
             htc_training_pdf.style.zIndex = "1000";
             htc_training_pdf.style.display = "block";
             training_pdf_quit_div.style.display = "block";
@@ -453,7 +454,7 @@
                 htc_training_pdf.style.display = "none";
                 htc_training_pdf.style.zIndex = "0";
             });
-            */
+            
         });
 
              
@@ -642,7 +643,7 @@
             cs.style.display = 'none';
             document.getElementById('htc_video_container').style.display = 'none';
             //swfobject.embedSWF("cal.swf", "container", "100%", "100%", "9.0.0");
-            document.getElementById('t').data = "ppts/ev_hev_ppt.pdf"
+            document.getElementById('t').data = "ppts/ev_hev_latest.pdf"
             htc_training_pdf.style.zIndex = "1000";
             htc_training_pdf.style.display = "block";
             training_pdf_quit_div.style.display = "block";

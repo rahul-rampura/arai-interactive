@@ -2530,7 +2530,7 @@
 
     
     gal1_btn.addEventListener('click', function() {
-        location.href = 'gal2.html';
+        location.href = 'gal1.html';
     });
     
     
