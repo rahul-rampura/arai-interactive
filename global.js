@@ -1,0 +1,1 @@
+var note = "Note: Please check your junk mail folder, as the mail may go to spam box due to the attachment size.";

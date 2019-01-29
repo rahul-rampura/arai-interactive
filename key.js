@@ -143,3 +143,7 @@ $('.keyboard-states').keyboard({
             form_quit_img.addEventListener('click', function() {
                 location.href = "home.html";
             });
+
+
+            var el = document.getElementById("form_note");
+            el.innerHTML = note;

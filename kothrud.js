@@ -1811,8 +1811,8 @@
                 audio.play();
             });
          */
-            coming.style.right = "13%";
-            coming.style.top = "32%";
+            coming.style.right = "9%";
+            coming.style.top = "37%";
             coming.style.height = "10%";
             coming.style.width = "8%";
             coming.style.display = "block";
@@ -2038,7 +2038,7 @@
             });
          */
             coming.style.right = "62%";
-            coming.style.top = "32%";
+            coming.style.top = "25%";
             coming.style.height = "10%";
             coming.style.width = "8%";
             coming.style.display = "block";
@@ -2074,13 +2074,13 @@
         });
 
         pmd_ppt.addEventListener('click', function() {
-        //document.getElementById('coming_soon').style.display = 'none';
+        document.getElementById('coming_soon').style.display = 'none';
         document.getElementById('video_container').style.display = 'none';
         vid.pause();
         audio.play();
-			/*
+			
             //swfobject.embedSWF("cal.swf", "container", "100%", "100%", "9.0.0");
-            document.getElementById('pmd').data = "ppts/HMR.pdf";
+            document.getElementById('pmd').data = "ppts/PMD_latest.pdf";
             pmd_pdf_div.style.zIndex = "1000";
             pmd_pdf_div.style.display = "block";
             pmd_pdf_quit_div.style.display = "block";
@@ -2089,12 +2089,13 @@
                 pmd_pdf_div.style.display = "none";
                 pmd_pdf_div.style.zIndex = "0";
             });
-			*/
+			/*
 	        coming.style.right = "50%";
             coming.style.top = "26%";
             coming.style.height = "10%";
             coming.style.width = "8%";
             coming.style.display = "block";
+            */
         });
     });
 
@@ -2281,8 +2282,8 @@
                 audio.play();
             });
             */
-            coming.style.right = "26%";
-            coming.style.top = "40%";
+            coming.style.right = "30%";
+            coming.style.top = "45%";
             coming.style.height = "10%";
             coming.style.width = "8%";
             coming.style.display = "block";
@@ -2356,16 +2357,16 @@
         erl_ops.style.display = "block";
 
         erl_vid.addEventListener('click', function() {
-        document.getElementById('video_container').style.display = 'none';
-        vid.pause();
-        audio.play();
-        /*
+        //document.getElementById('video_container').style.display = 'none';
+        //vid.pause();
+        //audio.play();
+        
         document.getElementById('coming_soon').style.display = 'none';
 
             var vc = document.getElementById('video_container');
             vc.style.display = 'block';
             vc.style.zIndex = "1000";
-            vid.src = "vid/corporate.mp4";
+            vid.src = "vid/ERL.mp4";
             vc.appendChild(vid);
             audio.pause();
             document.getElementById('quit_div').style.display = "block";
@@ -2382,13 +2383,13 @@
                 vc.style.zIndex = "1";
                 audio.play();
             });
-         */
+         /*
             coming.style.right = "30%";
             coming.style.top = "25%";
             coming.style.height = "10%";
             coming.style.width = "8%";
             coming.style.display = "block";
-
+         */
 
         });
         erl_pdf.addEventListener('click', function() {
